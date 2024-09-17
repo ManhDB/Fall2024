@@ -51,7 +51,22 @@ public class Student {
     public void setSem(int sem) {
         this.sem = sem;
     }
+
+     /**
+     * @return the fee
+     */
+    public float getFee() {
+        return fee;
+    }
+
+    /**
+     * @param fee the fee to set
+     */
+    public void setSem(float fee) {
+        this.fee = fee;
+    }
     private String name;
     private int sid;
     private int sem;
+    private float fee;
 }
