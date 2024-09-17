@@ -69,4 +69,5 @@ public class Student {
     private int sid;
     private int sem;
     private float fee;
+    private String courseName;
 }
