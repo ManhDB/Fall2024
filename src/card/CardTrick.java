@@ -57,6 +57,9 @@ public class CardTrick {
         System.out.println("Enter a suit (0 - 3 where 0 = Hearts, 1 = Diamonds, 2 = Clubs, 3 = Spades)");
         int userSuit = scan.nextInt();
         
+        CardTrick luckyCard = new CardTrick();
+        luckyCard.setValue(7);
+        luckyCard.setSuit("Hearts");
         
  
         //insert code to ask the user for Card value and suit, create their card
